@@ -352,15 +352,14 @@
 				<div class="knowleges__code-expamle">
 					<h2>Code example</h2>
 					<pre>
-const checkNumInput = (selector) => {
+const checkNumInput = (selector) =&gt {
 	const numInputs = document.querySelectorAll(selector);
-	numInputs.forEach(item => {
-	item.addEventListener('input', () => {
+	numInputs.forEach(item =&gt {
+	item.addEventListener('input', () =&gt {
 		item.value = item.value.replace(/\D/, '');
 		});
 	});
 };
-				
 export default checkNumInput;</pre>
 				</div>
 			</div>
